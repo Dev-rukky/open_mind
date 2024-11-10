@@ -3,8 +3,8 @@ import PromptCard from "./PromptCard";
 const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
   return (
     <section className='w-full'>
-      <h1 className='head_text text-left'>
-        <span className='sm:whitespace-pre-wrap sm:text-sm'>{name} Profile</span>
+      <h1 className='head_text text-left sm:text-sm'>
+        {name} Profile
       </h1>
       <p className='desc text-left'>{desc}</p>
 
